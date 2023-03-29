@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script type="application/javascript">
         let myObject = ['молоко', 'пиво', 'пиво', 'молоко', 'молоко'];
-        for (i of myObject){
+        for (i of myObject) {
             if (i === 'молоко') {
                 console.log('хорошо!');
             }
@@ -19,15 +21,19 @@
         }
     </script>
     <script type="application/javascript">
-        let e =  [1, 5, 12, 4, 3]
+        let e = [1, 5, 12, 4, 3]
         let b = [2, 3, 4, 5, 6, 7, 8, 9, 10]
         let c = [3, 10, 17]
- 
-        let mid = function(array) {return array.reduce((total, value) => (total + value)) / array.length;}
+
+        let mid = function (array) { return array.reduce((total, value) => (total + value)) / array.length; }
         console.log(mid(e))
         console.log(mid(b))
         console.log(mid(c))
- 
-     </script>
+    </script>
+    <script type="application/javascript">
+        let a = prompt('У квадратного стола отпилили один угол. Сколько теперь углов у него стало?')
+        alert(a === 'пять' || a == 5 ? 'Ответ верный' : 'Ответ не верный')
+    </script>
 </body>
+
 </html>
